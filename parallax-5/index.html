@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parallax Effect</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--==============================================
+	 PARALLAX LAYERS 
+	================================================-->
+
+	<div class="layer-container">
+		<div class="sky layer lax" data-lax-translate-y="0 1, 400 -100" ></div>
+		<h1 class="parallax-text">PARALLAX</h1>
+		<div class="montains layer lax"  data-lax-translate-y="0 1, 400 -260"></div>
+		<div class="line lax" data-lax-opacity="0 1, 100 0"></div>
+	</div>
+
+	<!--==============================================
+	 NAV 
+	================================================-->
+
+	<nav>
+		<a href="#" class="logo"><font color="#2A2929">GM</font>Brayan</a>
+		<button>Sign in</button>
+	</nav>
+
+	<section class="categories lax" data-lax-translate-y="0 0, 400 -300" >
+		<div class="heading">
+			<h4>Top Parallax Effect</h4>
+			<h1>Gain the new skills</h1>
+		</div>
+
+		<div class="products">
+			<!------- BOX-1 -------->	
+			<div class="box-1">
+				<font>Montains</font>	
+			</div>
+			<!------- BOX-2 -------->
+			<div class="box-2">
+				<font>Architecture</font>		
+			</div>
+			<!------- BOX-3 -------->
+			<div class="box-3">
+				<font>Lanspace</font>		
+			</div>
+		</div>
+	</section>
+
+	<!------- SCRIPT -------->
+	<script src="js/lax.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
